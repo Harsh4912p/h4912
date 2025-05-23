@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Harsh Pawar | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+</head>
+
+<body>
+  <!-- Scroll to top button -->
+  <div class="scroll-button">
+    <a href="#home"><i class="fas fa-arrow-up"></i></a>
+  </div>
+
+  <!-- Navigation Menu -->
+  <nav>
+    <div class="navbar">
+      <div class="logo"><a href="#">Portfolio.</a></div>
+      <ul class="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#project">Project</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#hobbies">Hobbies</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <div class="cancel-btn"><i class="fas fa-times"></i></div>
+      </ul>
+      <div class="media-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+    <div class="menu-btn"><i class="fas fa-bars"></i></div>
+  </nav>
+
+  <!-- Home Section -->
+  <section class="home" id="home">
+    <div class="home-content">
+      <div class="text">
+        <div class="text-one">Hello,</div>
+        <div class="text-two">I'm Harsh Pawar</div>
+        <div class="text-three">Pursuing Computer Engineering</div>
+        <div class="text-four">From Mumbai</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="content">
+      <div class="title"><span>About Me</span></div>
+      <div class="about-details">
+        <div class="left">
+          <img src="profile1.png" alt="Profile Photo" />
+        </div>
+        <div class="right">
+          <p><strong>Name:</strong> Harsh Pawar</p>
+          <p><strong>Location:</strong> Mumbai, India</p>
+          <p><strong>Education:</strong> Computer Engineering, SJCEM</p>
+          <p><strong>Languages Known:</strong> C, HTML, Python</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="video-section">
+  <div class="content">
+    <div class="title"><span>Introduction Video</span></div>
+    <div class="video-wrapper">
+      <video width="700" height="350" controls>
+        <source src="portfoliovideo.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </div>
+</section>
+
+
+
+  <!-- Projects Section -->
+  <section class="project" id="project">
+    <div class="content">
+      <div class="title"><span>Projects</span></div>
+      <ul style="padding-left: 20px; line-height: 1.8; font-size: 25px; font-weight: 500; color: #333;">
+        <li>Currency Exchange App in Python</li>
+        <li>Organ Donation Application using .NET and SQL</li>
+        <li><strong>Trendy Specs:</strong> E-commerce page for modern eyewear (HTML/CSS/JS)</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="skills-section" id="skills">
+  <div class="content">
+    <div class="title"><span>My Skills</span></div>
+       
+    <div class="skill">
+      <div class="skill-name">HTML</div>
+      <div class="progress-bar"><div class="progress" style="width: 70%;">70%</div></div>
+    </div>
+    <div class="skill">
+      <div class="skill-name">CSS</div>
+      <div class="progress-bar"><div class="progress" style="width: 40%;">40%</div></div>
+    </div>
+    <div class="skill">
+      <div class="skill-name">C++</div>
+      <div class="progress-bar"><div class="progress" style="width: 60%;">60%</div></div>
+    </div>
+  </div>
+</section>
+
+  <!-- Hobbies Section -->
+  <section class="hobbies" id="hobbies">
+    <div class="content">
+      <div class="title"><span>My Hobbies</span></div>
+      <div class="boxes">
+        <div class="box">
+          <div class="icon"><i class="fas fa-gamepad"></i></div>
+          <div class="topic">Gaming</div>
+        </div>
+        <div class="box">
+          <div class="icon"><i class="fas fa-camera"></i></div>
+          <div class="topic">Photography</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Shop - Trendy Specs</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .cart-slide {
+      transition: transform 0.3s ease;
+    }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Navbar -->
+  <nav class="bg-white shadow-md p-4 flex justify-between items-center">
+    <div class="text-2xl font-bold">🧢 Trendy Specs</div>
+    <div class="space-x-6 hidden md:flex">
+      <a href="#" class="hover:text-blue-500">Home</a>
+      <a href="#products" class="hover:text-blue-500">Products</a>
+      <button onclick="toggleCart()" class="hover:text-blue-500">
+        Cart 🛒 (<span id="cart-count">0</span>)
+      </button>
+    </div>
+  </nav>
+
+  
+
+  
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white text-center p-4 mt-10">
+    <p>&copy; 2025 Trendy Specs | 
+      <a href="#" class="underline">About</a> | 
+      <a href="#" class="underline">Contact</a> | 
+      <a href="#" class="underline">Terms</a>
+    </p>
+  </footer>
+
+  <!-- JavaScript -->
+  <script>
+    let cartItems = [];
+    let cartVisible = false;
+
+    function toggleCart() {
+      const cart = document.getElementById('cart');
+      cartVisible = !cartVisible;
+      cart.classList.toggle('hidden', !cartVisible);
+    }
+
+    function addToCart(button) {
+      const productCard = button.closest('[data-name]');
+      const name = productCard.dataset.name;
+      const price = parseInt(productCard.dataset.price);
+      cartItems.push({ name, price });
+      updateCartUI();
+    }
+
+    function updateCartUI() {
+      const cartContainer = document.getElementById('cart-items');
+      const cartTotal = document.getElementById('cart-total');
+      const cartCount = document.getElementById('cart-count');
+
+      cartContainer.innerHTML = '';
+      let total = 0;
+
+      cartItems.forEach((item, index) => {
+        const div = document.createElement('div');
+        div.className = 'flex justify-between items-center';
+        div.innerHTML = `
+          <span>${item.name} - $${item.price}</span>
+          <button onclick="removeItem(${index})" class="text-red-500 hover:text-red-700">✖</button>
+        `;
+        cartContainer.appendChild(div);
+        total += item.price;
+      });
+
+      cartTotal.textContent = total;
+      cartCount.textContent = cartItems.length;
+    }
+
+    function removeItem(index) {
+      cartItems.splice(index, 1);
+      updateCartUI();
+    }
+  </script>
+
+</body>
+</html>
+
+<section id="shop" class="py-12 px-6 bg-gray-100 dark:bg-gray-800 text-center">
+        <h2 class="text-3xl font-bold mb-4">🛍 My Shop</h2>
+        <p class="text-gray-700 dark:text-gray-300 mb-6 max-w-xl mx-auto">
+          Explore my custom-designed online store featuring trendy and comfortable apparel. Built with TailwindCSS and JavaScript, it's a sleek and responsive shopping experience!
+        </p>
+        <a href="shop.html" target="_blank" class="inline-block bg-blue-600 text-white px-6 py-3 rounded-full hover:bg-blue-700 transition">
+          Visit harsh Store
+        </a>
+    </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <div class="content">
+      <div class="title"><span>Contact Me</span></div>
+      <p>Email: <a href="mailto:123harsh2069@sjcem.edu.in">123harsh2069@sjcem.edu.in</a></p>
+      <p>Phone: <a href="tel:+917058066141">+91 7058066141</a></p>
+      <p>GitHub: <a href="https://github.com/Harsh4912p" target="_blank">github.com/Harsh4912p</a></p>
+
+      <!-- Google Map -->
+      <div class="map-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3756.1545023702033!2d72.78093297494425!3d19.706045231892034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be71c92fbd91e67%3A0x2a3ce68676417a45!2sSt.%20John%20College%20of%20Engineering%20and%20Management!5e0!3m2!1sen!2sin!4v1747732838866!5m2!1sen!2sin" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </div>
+  </section>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
